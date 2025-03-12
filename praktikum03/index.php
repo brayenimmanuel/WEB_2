@@ -19,33 +19,19 @@
     <body id="page-top">
         <!-- Navigation-->
         <?php include_once 'partials/navbar.php' ?>
+
         <!-- Masthead-->
         <?php include_once 'partials/hero.php' ?>
-        <!-- Portfolio Section-->
-        <?php include_once 'partials/section/portofolio.php' ?>
-        <!-- About Section-->
-        <?php include_once 'partials/section/about.php' ?>
-        <!-- Contact Section-->
-        <?php include_once 'partials/section/contact.php' ?>
+
+        <!-- Section-->
+        <?php include_once 'partials/section/index.php'?>
+
         <!-- Footer-->
         <?php include_once 'partials/footer.php' ?>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <?php include_once 'partials/modals/portofolio_1.php' ?>
-        <!-- Portfolio Modal 2-->
-        <?php include_once 'partials/modals/portofolio_2.php' ?>
-        <!-- Portfolio Modal 3-->
-        <?php include_once 'partials/modals/portofolio_3.php' ?>
-        <!-- Portfolio Modal 4-->
-        <?php include_once 'partials/modals/portofolio_4.php' ?>
-        <!-- Portfolio Modal 5-->
-        <?php include_once 'partials/modals/portofolio_4.php' ?>
-        <!-- Portfolio Modal 6-->
-        <?php include_once 'partials/modals/portofolio_4.php' ?>
+
+        <!-- Modals-->
+        <?php include_once 'partials/modals/index.php'?>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
