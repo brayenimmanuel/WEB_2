@@ -13,6 +13,9 @@ use App\Livewire\Settings\Profile;
 use App\Livewire\UnitKerja\CreateUnitKerja;
 use App\Livewire\UnitKerja\EditUnitKerja;
 use App\Livewire\UnitKerja\ListUnitKerja;
+use App\Livewire\Peminjaman\ListPeminjaman;
+use App\Livewire\Peminjaman\CreatePeminjaman;
+use App\Livewire\Peminjaman\EditPeminjaman;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -53,5 +56,10 @@ Route::get('unit-kerja/edit/{unitkerja}', EditUnitKerja::class)->name('unit-kerj
 Route::get('pegawai', ListPegawai::class)->name('pegawai.index');
 Route::get('pegawai/create', CreatePegawai::class)->name('pegawai.create');
 Route::get('pegawai/edit/{pegawai}', EditPegawai::class)->name('pegawai.edit');
+
+Route::get('/peminjaman', ListPeminjaman::class)->name('peminjaman.index');
+Route::get('/peminjaman/create', CreatePeminjaman::class)->name('peminjaman.create');
+Route::get('/peminjaman/edit/{peminjaman}', EditPeminjaman::class)->name('peminjaman.edit');
+
 
 require __DIR__ . '/auth.php';
